@@ -1,6 +1,7 @@
 # brendon75.github.io
 
-                                                                                          Campus Parking Problem Statement
+
+Campus Parking Problem Statement
 Brendon Mustachio
   Problem Statement:
 	  Students and faculty often struggle to find available parking spots on campus, leading to frustration and wasted time. A real-time parking availability system could help drivers locate open spots more efficiently.
