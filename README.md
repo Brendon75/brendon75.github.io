@@ -137,9 +137,11 @@
         <!-- Image Section -->
         <div class="image-container">
             <!-- Example Image 1 -->
-            <img src="images/parking-issue1.png" alt="Parking Issue Diagram 1">
+            <img src="images/persona-harper.png" alt="Olivia Harper">
             <!-- Example Image 2 -->
-            <img src="images/parking-issue2.png" alt="Parking Issue Diagram 2">
+            <img src="images/persona-maiden.png" alt="Corrie Maiden">
+            <!-- Example Image 3 -->
+            <img src="images/persona-shoomer.png" alt="Eric Shoomer">
         </div>
 
 </body>
