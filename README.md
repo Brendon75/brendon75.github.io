@@ -137,13 +137,18 @@
         <!-- Image Section -->
         <div class="image-container">
             <!-- Example Image 1 -->
-            <img src="personas/persona-harper.png" alt="Olivia Harper">
+            <img src="personas/persona-harper.png.pdf" alt="Olivia Harper">
             <!-- Example Image 2 -->
-            <img src="personas/persona-maiden.png" alt="Corrie Maiden">
+            <img src="personas/persona-maiden.png.pdf" alt="Corrie Maiden">
             <!-- Example Image 3 -->
-            <img src="personas/persona-shoomer.png" alt="Eric Shoomer">
+            <img src="personas/persona-shoomer.png.pdf" alt="Eric Shoomer">
         </div>
 
 </body>
 </html>
 
+[persona-harper.png.pdf](https://github.com/user-attachments/files/19275837/persona-harper.png.pdf)
+
+[persona-maiden.png.pdf](https://github.com/user-attachments/files/19275838/persona-maiden.png.pdf)
+
+[persona-shoomer.png.pdf](https://github.com/user-attachments/files/19275851/persona-shoomer.png.pdf)
