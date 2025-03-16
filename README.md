@@ -68,10 +68,6 @@
         <h3>Why does it matter?</h3>
         <p>It is important for students to find parking suitable for them and their classes. Otherwise, it could become a problem if these students keep ending up in class late.</p>
 
-        <!-- Link to Second Page -->
-        <a href="second-page.html" class="nav-link">Go to Second Page</a>
-    </div>
-
 </body>
 </html>
 
@@ -145,10 +141,6 @@
             <!-- Example Image 2 -->
             <img src="images/parking-issue2.png" alt="Parking Issue Diagram 2">
         </div>
-
-        <!-- Link Back to Main Page -->
-        <a href="index.html" class="nav-link">Back to Main Page</a>
-    </div>
 
 </body>
 </html>
