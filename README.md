@@ -23,7 +23,7 @@
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
         }
-        h1 {
+        h1, p {
             color: #2c3e50;
         }
         p {
@@ -31,16 +31,13 @@
             line-height: 1.6;
         }
         .nav-link {
-            display: block;
-            margin: 20px 0;
-            padding: 10px;
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
             background: #e74c3c;
             color: white;
             text-decoration: none;
             border-radius: 5px;
-            width: 200px;
-            margin-left: auto;
-            margin-right: auto;
         }
         .nav-link:hover {
             background: #c0392b;
@@ -52,9 +49,9 @@
     <div class="container">
         <h1>More About Campus Parking</h1>
         
-        <p>Aside from the difficulty of finding parking, another problem arises from the lack of reserved spaces for emergency needs. Many students and faculty have expressed concerns about not being able to park close to their classes or offices.</p>
+        <p>Aside from difficulty in finding parking, another concern is the lack of emergency spaces for faculty and students who need immediate access to buildings.</p>
 
-        <p>Potential solutions include increasing the number of parking spaces, implementing a real-time tracking system, or encouraging alternative transportation methods such as carpooling and biking.</p>
+        <p>Possible solutions include increasing the number of parking spaces, implementing real-time parking tracking, or encouraging alternative transportation.</p>
 
         <!-- Link Back to Main Page -->
         <a href="index.html" class="nav-link">Back to Main Page</a>
@@ -62,3 +59,4 @@
 
 </body>
 </html>
+
