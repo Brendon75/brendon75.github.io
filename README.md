@@ -118,6 +118,15 @@
         .nav-link:hover {
             background: #c0392b;
         }
+        .image-container {
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
@@ -129,11 +138,18 @@
 
         <p>Possible solutions include increasing the number of parking spaces, implementing real-time parking tracking, or encouraging alternative transportation.</p>
 
+        <!-- Image Section -->
+        <div class="image-container">
+            <!-- Example Image 1 -->
+            <img src="images/parking-issue1.png" alt="Parking Issue Diagram 1">
+            <!-- Example Image 2 -->
+            <img src="images/parking-issue2.png" alt="Parking Issue Diagram 2">
+        </div>
+
         <!-- Link Back to Main Page -->
         <a href="index.html" class="nav-link">Back to Main Page</a>
     </div>
 
 </body>
 </html>
-
 
