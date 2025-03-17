@@ -154,7 +154,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Additional Images</title>
+    <title>Additional Campus Parking Images</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -174,34 +174,44 @@
         h1 {
             color: #2c3e50;
         }
+        p {
+            text-align: left;
+            line-height: 1.6;
+        }
         .image-container {
             margin-top: 20px;
         }
         img {
             max-width: 100%;
             height: auto;
-            margin-bottom: 20px;
             border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>Campus Parking App UniPark</h1>
+        <h1>UniPark Campus Parking App</h1>
 
-    <p>Here are some images of the UniPark app and it's concepts</p>
+        <p>Here are some images related to campus parking App:</p>
 
-        <!-- Image Display -->
         <div class="image-container">
-            <img src="UniParkIMG's/IMG_0338.JPG" alt="UniPark App Page 1">
-            <img src="UniParkIMG's/IMG_0337.JPG" alt="UniPark App Page 2">
+            <h2>Parking Lot Image 1</h2>
+            <img src="UniParkIMG's/IMG_0337.JPG" alt="Campus Parking Image 1">
+        </div>
+
+        <div class="image-container">
+            <h2>Parking Lot Image 2</h2>
+            <img src="UniParkIMG's/IMG_0338.JPG" alt="Campus Parking Image 2">
         </div>
 
     </div>
 
 </body>
 </html>
+
 
 ![IMG_0338](https://github.com/user-attachments/assets/ecefd1ed-41a6-44ed-b190-d22f05a278f4)
 
