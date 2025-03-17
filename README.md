@@ -187,9 +187,9 @@
 <body>
 
     <div class="container">
-        <h1>Campus Parking Map</h1>
+        <h1>Parking App UniPark</h1>
 
-        <p>Here is a map displaying the different parking locations on campus:</p>
+        <p>Here is a few sketches of an app that will assist in solving problem I have stated before.:</p>
 
         <div class="image-container">
             <img src="images/campus-parking-map.png" alt="Campus Parking Map">
