@@ -198,12 +198,12 @@
         <p>Here are some images related to campus parking App:</p>
 
         <div class="image-container">
-            <h2>Parking Lot Image 1</h2>
+            <h2>UniPark sketches 1</h2>
             <img src="UniParkIMG's/IMG_0337.JPG" alt="Campus Parking Image 1">
         </div>
 
         <div class="image-container">
-            <h2>Parking Lot Image 2</h2>
+            <h2>UniPark sketches 2</h2>
             <img src="UniParkIMG's/IMG_0338.JPG" alt="Campus Parking Image 2">
         </div>
 
