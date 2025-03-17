@@ -102,26 +102,13 @@
             text-align: left;
             line-height: 1.6;
         }
-        .nav-link {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 15px;
-            background: #e74c3c;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .nav-link:hover {
-            background: #c0392b;
-        }
-        .image-container {
+        .pdf-container {
             margin-top: 20px;
         }
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 20px;
-            border-radius: 10px;
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
         }
     </style>
 </head>
@@ -134,21 +121,82 @@
 
         <p>Possible solutions include increasing the number of parking spaces, implementing real-time parking tracking, or encouraging alternative transportation.</p>
 
-        <!-- Image Section -->
-        <div class="image-container">
-            <!-- Example Image 1 -->
-            <img src="personas/persona-harper.png.pdf" alt="Olivia Harper">
-            <!-- Example Image 2 -->
-            <img src="personas/persona-maiden.png.pdf" alt="Corrie Maiden">
-            <!-- Example Image 3 -->
-            <img src="personas/persona-shoomer.png.pdf" alt="Eric Shoomer">
+        <div class="pdf-container">
+            <h2>Persona - Harper</h2>
+            <iframe src="personas/persona-harper.png.pdf"></iframe>
         </div>
+
+        <div class="pdf-container">
+            <h2>Persona - Maiden</h2>
+            <iframe src="personas/persona-maiden.png.pdf"></iframe>
+        </div>
+
+        <div class="pdf-container">
+            <h2>Persona - Shoomer</h2>
+            <iframe src="personas/persona-shoomer.png.pdf"></iframe>
+        </div>
+
+    </div>
 
 </body>
 </html>
+
 
 [persona-harper.png.pdf](https://github.com/user-attachments/files/19275837/persona-harper.png.pdf)
 
 [persona-maiden.png.pdf](https://github.com/user-attachments/files/19275838/persona-maiden.png.pdf)
 
 [persona-shoomer.png.pdf](https://github.com/user-attachments/files/19275851/persona-shoomer.png.pdf)
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Map</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .image-container {
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Campus Parking Map</h1>
+
+        <p>Here is a map displaying the different parking locations on campus:</p>
+
+        <div class="image-container">
+            <img src="images/campus-parking-map.png" alt="Campus Parking Map">
+        </div>
+
+    </div>
+
+</body>
+</html>
+
