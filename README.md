@@ -154,7 +154,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parking Map</title>
+    <title>Additional Images</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -180,6 +180,7 @@
         img {
             max-width: 100%;
             height: auto;
+            margin-bottom: 20px;
             border-radius: 10px;
         }
     </style>
@@ -187,12 +188,14 @@
 <body>
 
     <div class="container">
-        <h1>Parking App UniPark</h1>
+        <h1>Campus Parking App UniPark</h1>
 
-        <p>Here is a few sketches of an app that will assist in solving problem I have stated before.:</p>
+    <p>Here are some images of the UniPark app and it's concepts</p>
 
+        <!-- Image Display -->
         <div class="image-container">
-            <img src="images/campus-parking-map.png" alt="Campus Parking Map">
+            <img src="UniParkIMG's/IMG_0338.JPG" alt="UniPark App Page 1">
+            <img src="UniParkIMG's/IMG_0337.JPG" alt="UniPark App Page 2">
         </div>
 
     </div>
@@ -200,3 +203,6 @@
 </body>
 </html>
 
+![IMG_0338](https://github.com/user-attachments/assets/ecefd1ed-41a6-44ed-b190-d22f05a278f4)
+
+![IMG_0337](https://github.com/user-attachments/assets/2cd0cf15-5a1b-434c-9de2-8dd187349141)
