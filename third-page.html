@@ -11,13 +11,22 @@
             text-align: center;
             border-radius: 10px;
             display: inline-block;
-            margin-top: 20px;
+            margin: 20px auto;
         }
-        .image-container img {
+        .persona-container {
+            background-color: #e6f7ff; /* Light blue background */
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            display: inline-block;
+            margin: 40px auto; /* Increased margin to add space */
+        }
+        .image-container img, .persona-container img {
             max-width: 100%;
             height: auto;
             border: 2px solid #333;
-            margin-bottom: 10px;
+            display: block;
+            margin: 10px auto;
         }
     </style>
 </head>
@@ -33,10 +42,19 @@
     </nav>
     <p>This is the content of the third page.</p>
 
-    <!-- Problem Statement Image Section -->
+    <!-- Problem Statement Images Section -->
     <div class="image-container">
+        <h2>Problem Statement</h2>
         <img src="problem-statement/1.jpg" alt="Problem Statement Image 1">
         <img src="problem-statement/2.jpg" alt="Problem Statement Image 2">
+    </div>
+
+    <!-- Personas Images Section -->
+    <div class="persona-container">
+        <h2>Personas</h2>
+        <img src="Personas/persona-harper.jpg" alt="Persona Harper">
+        <img src="Personas/persona-maiden.jpg" alt="Persona Maiden">
+        <img src="Personas/persona-shoomer.jpg" alt="Persona Shoomer">
     </div>
 
 </body>
