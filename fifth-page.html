@@ -4,6 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fifth Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fefefe;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 10px;
+            background-color: #333;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        .image-section {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .image-container {
+            background-color: #e0f7fa; /* Soft teal background */
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 45%;
+            min-width: 300px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 6px;
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to the Fifth Page</h1>
@@ -18,9 +72,13 @@
     </nav>
 
     <h2>App Design Images</h2>
-    <div>
-        <img src="UniParkIMG's/app_designs1.jpg" alt="App Design 1" width="500">
-        <img src="UniParkIMG's/app_designs2.jpg" alt="App Design 2" width="500">
+    <div class="image-section">
+        <div class="image-container">
+            <img src="UniParkIMG's/app_designs1.jpg" alt="App Design 1">
+        </div>
+        <div class="image-container">
+            <img src="UniParkIMG's/app_designs2.jpg" alt="App Design 2">
+        </div>
     </div>
 </body>
 </html>
